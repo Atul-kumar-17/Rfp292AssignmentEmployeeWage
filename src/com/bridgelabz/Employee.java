@@ -10,5 +10,12 @@ public class Employee {
         }else{
             System.out.println("Employee is Absent.");
         }
+        // Calculation of Daily Wage
+        int wagePerHrs = 20;
+        int fullDayHrs = 8;
+        int dailyWage = wagePerHrs * fullDayHrs;
+        if(randomCheck==1){
+            System.out.println("Employee is Present & his daily Wage is = "+dailyWage);
+        }else System.out.println("Employee is Absent. ");
     }
 }
